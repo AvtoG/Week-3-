@@ -1,16 +1,16 @@
 function setup() { 
   createCanvas(400, 400);
-} 
+}
 
 function draw() { 
 	
-var	x=0
-
-	while (x<400) {
-
-		noFill()
-		ellipse (200,200,x,x);
+	var x=0
+	var y=5
+	
+	while (y<400) {
 		
-		x=x+10
-	}
+		line (x,0,x,y)
+		x=x+5
+		y=y+5
+}
 }
